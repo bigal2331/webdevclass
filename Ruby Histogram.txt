@@ -1,0 +1,17 @@
+puts "tell me something: "
+text = gets.chomp
+textarray = text.split(" ")
+thash = Hash.new(0)
+
+textarray.each do  |word| 
+    
+    thash[word] +=1
+
+end
+
+thash.each do |word, xused| 
+    
+    puts word+" "+xused.to_s
+
+end
+    

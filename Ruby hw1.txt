@@ -1,0 +1,13 @@
+def greeting # Define your method below!
+puts "Give me a senteces"
+text = gets.chomp
+puts "#{text} Only in america"
+end
+
+def greeting
+    puts "Give me a list of numbers"
+    listnum= gets.chomp
+    numarray=listnum.split( )
+    puts numarray.max 
+end
+
