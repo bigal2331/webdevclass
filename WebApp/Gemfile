@@ -1,0 +1,9 @@
+source 'http://rubygems.org'
+gem 'sinatra'
+gem 'haml'
+gem 'activerecord'
+gem 'sinatra-activerecord', '2.0.0.rc2'
+gem	'rake'
+gem 'bcrypt-ruby'
+gem "geolocater"
+gem 'sqlite3'
