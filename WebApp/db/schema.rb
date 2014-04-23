@@ -11,12 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140422233810) do
+ActiveRecord::Schema.define(version: 20140423231532) do
+
+  create_table "CreditCard", force: true do |t|
+    t.integer "credicardnumber"
+    t.integer "userid"
+    t.string  "creditcarname"
+  end
 
   create_table "users", force: true do |t|
-    t.string "first_name"
-    t.string "last_name"
-    t.string "email"
+    t.string  "first_name"
+    t.string  "last_name"
+    t.string  "email"
+    t.integer "phone_number"
   end
 
 end
